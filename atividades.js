@@ -9,11 +9,8 @@ EXEMPLO: Recebe “dados.txt” e o retorno do método deve ser um conteúdo: {
 "nome": "JavaScript", "ano": 2015 }
 */
 
+
 funcoes.funcao1();
-
-
-
-
 
 
 /* FUNÇÃO 2
@@ -25,6 +22,9 @@ EXEMPLO: Adiciona o elemento { "nome": "CSS3", "ano": 2020 } na lista de
 objetos do arquivo. 
 */
 
+ console.log("\nSaída da Função 2: ");
+funcoes.funcao2();
+
 /*FUNÇÃO 3
 Função que recebe um nome de um atributo e o nome (nome e caminho) de um arquivo
 e retorna um objeto cujo nome exista na coleção de objetos.
@@ -32,9 +32,17 @@ e retorna um objeto cujo nome exista na coleção de objetos.
 EXEMPLO: Recebe o valor "CSS3" e retorna { "nome": "CSS3", "ano": 2020 }
 */
 
+console.log("\nSaída da Função 3: ");
+funcoes.funcao3();
+
 /*FUNÇÃO 4
 Função que recebe um nome de um atributo e o nome (nome e caminho) de um arquivo
 e remove o objeto cujo nome exista na coleção de objetos.
 
 EXEMPLO: Recebe o valor "CSS3" e remove o objeto com esse valor.
 */
+
+console.log("\nSaída da Função 4: ");
+funcoes.funcao4();
+
+console.log("\nSaída da Função 1: ");
